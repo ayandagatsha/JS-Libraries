@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+#container
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border: 3px solid black;
+	width: 400px;
+	height: 300px;
+	margin-left: -200px;
+	margin-top: -150px;
+}
+
+#content
+{
+	font-size: 0.8em;
+	font-family: sans-serif;
+	background-color: #ccc;
+	position: relative;
+	left: 50%;
+	top: 10%;
+	width: fit-content;
+	height: auto;
+    max-width: 240px;
+	margin-left: -120px;
+	margin-top: -25px;
+}
+
+
+#container{
+    opacity: 1;
+    animation: fadeIn 5s ease;
+  }
+  
+  @keyframes fadeIn{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  
+
+  /* img */
+  
+  img{
+      width: 190px;
+    margin: auto;
+  }
